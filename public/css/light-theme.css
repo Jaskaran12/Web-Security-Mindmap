@@ -5,3 +5,19 @@ body {
   a {
     color: #0033cc;
   }
+
+  .node {
+    cursor: pointer;
+  }
+  
+  .node circle {
+    cursor: pointer;
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  
+  .node text {
+    font-size: 12px;
+    fill: rgb(0, 0, 0);
+  }
