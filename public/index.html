@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="css/arf.css"/>
-    <link id="theme" rel="stylesheet" type="text/css" href="light-theme.css" />
+    <link type="text/css" href="css/light-theme.css" rel="stylesheet" id="theme-link">
     <script type="text/javascript" src="js/d3.v3.min.js"></script>
     <title>Web Pentesting Methodology</title>
   </head>
@@ -15,8 +15,19 @@
           <hr/>
       </div>
     </div>
-    <button id="theme-toggle">Switch to dark mode</button>
-    <script src="js/color.js"></script>
+    <button class="btn-toggle">Toggle Dark-Mode</button>
+      <script>
+        const btn = document.querySelector(".btn-toggle");
+        const theme = document.querySelector("#theme-link");
+        btn.addEventListener("click", function() {
+          // Swap out the URL for the different stylesheets
+          if (theme.getAttribute("href") == "css/light-theme.css") {
+            theme.href = "css/dark-theme.css";
+          } else {
+            theme.href = "css/light-theme.css";
+          }
+        });
+      </script>
     <script src="js/arf.js"></script>
 
 
@@ -25,8 +36,8 @@
     <p> Since then, the response from other fields and disciplines has been incredible</p>
 
     <h3>For Update Notifications</h3>
-    Follow me on Twitter: <a href="https://twitter.com/jnordine">@jaskaransingh</a><br>
-    Watch or star the project on Github: <a href="https://github.com/lockfale/osint-framework">https://github.com/lockfale/osint-framework</a>
+    Follow me on Linkden: <a href="https://www.linkedin.com/in/jaskaransingh-dce/">@jaskaransingh</a><br>
+    Watch or star the project on Github: <a href="https://github.com/Jaskaran12/Web-Security-Mindmap">Project link</a>
 
     <h3>Suggestions, Comments, Feedback</h3>
     Feedback or new tool suggestions are extremely welcome!  Please feel free to reach out on Twitter or submit an issue on Github.
