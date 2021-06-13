@@ -1,0 +1,697 @@
+{
+  "children":[
+      {
+       "children":[
+         {
+           "children":[
+             {
+               "children":[
+                 {
+                   "name":"bgp.he.net",
+                   "type":"url",
+                   "url":"https://bgp.he.net/"
+                 },
+                 {
+                   "name":"whois.arin.net",
+                   "type":"url",
+                   "url":"http://whois.arin.net/ui/"
+                 },
+                 {
+                  "name":"apps.db.ripe.net",
+                  "type":"url",
+                  "url":"https://apps.db.ripe.net/db-web-ui/query"
+                },
+                {
+                  "name":"reverseip.domaintools.com",
+                  "type":"url",
+                  "url":"https://reverseip.domaintools.com/"
+                },
+                {
+                  "name":"shodan.io",
+                  "type":"url",
+                  "url":"https://www.shodan.io/"
+                },
+                {
+                  "name":"dnsgoodies.com",
+                  "type":"url",
+                  "url":"http://www.dnsgoodies.com/"
+                }
+               ],
+               "name":"IP blocks/Subnets",
+                "type":"folder"
+              },
+             {
+               "children": [
+                 {
+                   "name":"Trademark Google",
+                   "type":"url",
+                   "url":"https://www.google.com/"
+                 },
+                 {
+                   "name":"Facebook",
+                   "type":"url",
+                   "url":"https://facebook.com"
+                 },
+                 {
+                  "name":"Github",
+                  "type":"url",
+                  "url":"https://github.com"
+                 },
+                 {
+                  "name":"Reverse Whois",
+                  "type":"url",
+                  "url":"https://www.reversewhois.io/"
+                 },
+                 {
+                  "name":"view dns",
+                  "type":"url",
+                  "url":"https://viewdns.info/"
+                 },
+                 {
+                   "name":"Whoisxmlapi",
+                   "type":"url",
+                   "url":"https://www.whoisxmlapi.com/"
+                 }
+
+               ],
+              "name":"Brand Discovery Acquisitons",
+              "type":"folder"
+             }
+           ],
+           "name":"ASN",
+           "type":"folder"
+         },
+         {
+           "children":[
+             {
+               "children":[
+
+                {
+                  "name":"Chaos projectdiscovery.io",
+                  "type":"url",
+                  "url":"https://chaos.projectdiscovery.io/#/"
+                },
+                {
+                  "name":"sublister",
+                  "type":"url",
+                  "url":"https://github.com/aboul3la/Sublist3r"
+                },
+                {
+                  "name":"amass",
+                  "type":"url",
+                  "url":"https://github.com/OWASP/Amass"
+                },
+                {
+                  "name":"aquatone",
+                  "type":"url",
+                  "url":"https://github.com/michenriksen/aquatone"
+                },
+                {
+                  "name":"Knockpy",
+                  "type":"url",
+                  "url":"https://github.com/guelfoweb/knock"
+                },
+                {
+                  "name":"Project Discovery",
+                  "type":"url",
+                  "url":"https://github.com/projectdiscovery/subfinder"
+                }
+               ],
+               
+              "name":"Vertical Corelation",
+              "type":"folder"
+             },
+             {
+               "children":[
+                 {
+                   "name":"Can be found out by simple reseach(no link)"
+                 }
+               ],
+              "name":"Horizontal Corelation",
+              "type":"folder"
+             }
+           ],
+           "name":"Top Level Domains",
+           "type":"folder"
+         }
+       ],
+      
+        "name": "Content Discovery",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"crt.sh",
+            "type":"url",
+            "url":"https://crt.sh/"
+          },
+          {
+            "name":"Google CT",
+            "type":"url",
+            "url":"https://transparencyreport.google.com/https/certificates?hl=en"
+          },
+          {
+            "name":"Facebook CT",
+            "type":"url",
+            "url":"https://developers.facebook.com/tools/ct/search/"
+          }
+        ],
+        "name": "Certificate Transparency",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"JS Parser",
+            "type":"url",
+            "url":"https://github.com/nahamsec/JSParser"
+
+          },
+          {
+            "name":"Linkfinder",
+            "type":"url",
+            "url":"https://github.com/GerbenJavado/LinkFinder"
+
+          },
+          {
+            "name":"GetJS",
+            "type":"url",
+            "url":"https://github.com/003random/getJS"
+          },
+          {
+            "name":"InputScanner",
+            "type":"url",
+            "url":"https://github.com/zseano/InputScanner"
+          },
+          {
+            "name":"JSscan",
+            "type":"url",
+            "url":"https://github.com/zseano/JS-Scan"
+          }
+
+        ],
+        "name": "JS Enumeration",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Syborg",
+            "type":"url",
+            "url":"https://github.com/MilindPurswani/Syborg"
+
+          },
+          {
+            "name":"dnsgen",
+            "type":"url",
+            "url":"https://github.com/ProjectAnte/dnsgen"
+
+          },
+          {
+            "name":"dnsrecon",
+            "type":"url",
+            "url":"https://github.com/darkoperator/dnsrecon"
+          }
+        ],
+        "name": "Recursive DNS Enumeration",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"meg",
+            "type":"url",
+            "url":"https://github.com/tomnomnom/meg"
+
+          },
+          {
+            "name":"tojson",
+            "type":"url",
+            "url":"https://github.com/malijs/tojson"
+          },
+          {
+            "name":"interlace",
+            "type":"url",
+            "url":"https://github.com/codingo/Interlace"
+          },
+          {
+            "name":"gf",
+            "type":"url",
+            "url":"https://github.com/tomnomnom/gf"
+          },
+          { "name":"httprobe",
+            "type":"url",
+            "url":"https://github.com/tomnomnom/httprobe"
+            },
+            {
+              "name":"shuffledns",
+              "type":"url",
+              "url":"https://github.com/projectdiscovery/shuffledns"
+            },
+            {
+              "name":"httpx",
+              "type":"url",
+              "url":"https://github.com/projectdiscovery/httpx"
+            },
+            {
+              "name":"nuclei",
+              "type":"url",
+              "url":"https://github.com/projectdiscovery/nuclei"
+            }
+        ],
+        "name": "Hacks",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "children":[
+              {
+                "name":"nip.io",
+                "type":"url",
+                "url":"https://nip.io/"
+              },
+              {
+                "name":"burp collaborator",
+                "type":"url",
+                "url":"https://github.com/putsi/privatecollaborator"
+
+              },
+              {
+                "name":"SSRFMap",
+                "type":"url",
+                "url":"https://github.com/swisskyrepo/SSRFmap"
+              }
+            ],
+            "name":"SSRF",
+            "type":"folder"
+          },
+          {
+            "children":[
+              {
+                "name":"CORSscanner",
+                "type":"url",
+                "url":"https://github.com/chenjj/CORScanner"
+              },
+              {
+                "name":"Corsy",
+                "type":"url",
+                "url":"https://github.com/s0md3v/Corsy"
+
+              },
+              {
+                "name":"Gf Patterns",
+                "type":"url",
+                "url":"https://github.com/1ndianl33t/Gf-Patterns"
+
+              }
+            ],
+            "name":"CORS",
+            "type":"folder"
+
+          },
+          {
+            "children":[
+              {
+                "name":"Blazy",
+                "type":"url",
+                "url":"https://github.com/s0md3v/Blazy"
+
+              },
+              {
+                "name":"CSRF Scanner",
+                "type":"url",
+                "url":"https://github.com/PortSwigger/csrf-scanner"
+
+              },
+              {
+                "name":"Bolt",
+                "type":"url",
+                "url":"https://github.com/s0md3v/Bolt"
+
+              },
+              {
+                "name":"Burp CSRF POC",
+                "type":"url",
+                "url":"https://portswigger.net/burp/documentation/desktop/functions/generate-csrf-poc(Article)"
+
+              }
+            ],
+
+            "name":"CSRF",
+            "type":"folder"
+
+          },
+          {
+            "children":[
+              {
+                "name":"XSScarpy",
+                "type":"url",
+                "url":"https://github.com/DanMcInerney/xsscrapy"
+              },
+              {
+                "name":"XSSstrike",
+                "type":"url",
+                "url":"https://github.com/s0md3v/XSStrike"
+              },
+              {
+                "name":"XSS Gf Patterns",
+                "type":"url",
+                "url":"https://github.com/1ndianl33t/Gf-Patterns"
+
+              },
+              {
+                "name":"XSS Wayback hunt",
+                "type":"url",
+                "url":"https://github.com/hahwul/WebHackersWeapons"
+              },
+              {
+                "name":"dalfox",
+                "type":"url",
+                "url":"https://github.com/hahwul/dalfox"
+              },
+              {
+                "name":"Quick XSS",
+                "type":"url",
+                "url":"https://reposhub.com/linux/system-utilities/theinfosecguy-QuickXSS.html"
+              }
+
+            ],
+            "name":"XSS",
+            "type":"folder"
+
+          },
+          {
+            "children":[
+              {
+                "name":"Commix",
+                "type":"url",
+                "url":"https://github.com/commixproject/commix"
+              },
+              {
+                "name":"GF Patterns + Waybackarchive",
+                "type":"url",
+                "url":"https://github.com/1ndianl33t/Gf-Patterns"
+              }
+            ],
+
+            "name":"Command Injection",
+            "type":"folder"
+          },
+          {
+            "children":[
+              {
+                "name":"Open Redirect Scanner",
+                "type":"url",
+                "url":"https://github.com/aldo-moreno-leon/ORtester"
+              },
+              {
+                "name":"GF Patterns + Waybackarchive",
+                "type":"url",
+                "url":"https://github.com/1ndianl33t/Gf-Patterns"
+              }
+            ],
+            "name":"Open Redirect",
+            "type":"folder"
+          }
+
+        ],
+        "name": "Web Application Attacks",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"CanitakeOverXYZ",
+                "type":"url",
+                "url":"https://github.com/EdOverflow/can-i-take-over-xyz"
+          },
+          {
+            "name":"SubOver",
+                "type":"url",
+                "url":"https://github.com/Ice3man543/SubOver"
+          },
+          {
+            "name":"SubJack",
+                "type":"url",
+                "url":"https://github.com/haccer/subjack"
+          },
+          {
+            "name":"Takeover",
+                "type":"url",
+                "url":"https://github.com/m4ll0k/takeover"
+          },
+          {
+            "name":"Subzy",
+                "type":"url",
+                "url":"https://github.com/LukaSikic/subzy"
+          },
+          {
+            "name":"HostileSTKO",
+                "type":"url",
+                "url":"https://github.com/nahamsec/HostileSubBruteforcer"
+          }
+        ],
+        "name": "Subdomain Takeover",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Waybackurls",
+                "type":"url",
+                "url":"https://github.com/tomnomnom/waybackurls"
+          },
+          {
+            "name":"Wayback Unifier",
+                "type":"url",
+                "url":"https://github.com/mhmdiaa/waybackunifier"
+          },
+          {
+            "name":"Parameth",
+                "type":"url",
+                "url":"https://github.com/maK-/parameth"
+          },
+          {
+            "name":"Paramspider",
+                "type":"url",
+                "url":"https://github.com/devanshbatham/ParamSpider"
+          }
+        ],
+        "name": "Wayback Enumeration",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Wfuzz",
+                "type":"url",
+                "url":"https://github.com/xmendez/wfuzz"
+          },
+          {
+            "name":"ffuf",
+                "type":"url",
+                "url":"https://github.com/ffuf/ffuf"
+          },
+          {
+            "name":"gobuster",
+                "type":"url",
+                "url":"https://github.com/OJ/gobuster"
+          }
+        ],
+        "name": "Fuzzing",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Massscan",
+                "type":"url",
+                "url":"https://github.com/robertdavidgraham/masscan"
+          },
+          {
+            "name":"Nmap",
+                "type":"url",
+                "url":"https://github.com/nmap/nmap"
+          },
+          {
+            "name":"naabu",
+                "type":"url",
+                "url":"https://github.com/projectdiscovery/naabu"
+          }
+        ],
+        "name": "PORT Scan",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Webtool",
+                "type":"url",
+                "url":"https://www.webtoolhub.com/"
+          },
+          {
+            "name":"Virtual Host Scanner",
+                "type":"url",
+                "url":"https://github.com/jobertabma/virtual-host-discovery"
+          }
+        ],
+
+        "name": "Virtual Hosts",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"WAFW00F",
+            "type":"url",
+            "url":"https://github.com/EnableSecurity/wafw00f"
+          },
+          {
+            "name":"Nmap NSE Script",
+            "type":"url",
+            "url":"https://github.com/nmap/nmap/blob/master/scripts/http-waf-detect.nse"
+          }
+        ],
+
+        "name": "WAF Identification",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"raft-wordlists",
+            "type":"url",
+            "url":"https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content"
+          },
+          {
+            "name":"jason haddix all.txt",
+            "type":"url",
+            "url":"https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056"
+          },
+          {
+            "name":"dnsgen",
+            "type":"url",
+            "url":"https://github.com/ProjectAnte/dnsgen"
+          },
+          {
+            "name":"ContentDiscovery all.txt",
+            "type":"url",
+            "url":"https://gist.github.com/jhaddix"
+          },
+          {
+            "name":"SecLists",
+            "type":"url",
+            "url":"https://github.com/danielmiessler/SecLists"
+          },
+          {
+            "name":"Payload all things",
+            "type":"url",
+            "url":"https://github.com/swisskyrepo/PayloadsAllTheThings"
+          },
+          {
+            "name":"customwordlist: take params from burp/js and give to wfuzz",
+            "type":"url",
+            "url":"https://github.com/digininja/CeWL"
+          }
+        ],
+        "name": "Wordlists",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Wappalyzer",
+            "type":"url",
+            "url":"https://www.wappalyzer.com/"
+          },
+          {
+            "name":"Builtwith",
+            "type":"url",
+            "url":"https://builtwith.com/"
+          },
+          {
+            "name":"Whatweb",
+            "type":"url",
+            "url":"https://github.com/urbanadventurer/WhatWeb"
+          },
+          {
+            "name":"Retire.JS",
+            "type":"url",
+            "url":"https://github.com/retirejs/retire.js/"
+          }
+        ],
+        "name": "CMS Identification",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"Aquatone",
+            "type":"url",
+            "url":"https://github.com/michenriksen/aquatone"
+          },
+          {
+            "name":"Webscreenshot",
+            "type":"url",
+            "url":"https://github.com/maaaaz/webscreenshot"
+          },
+          {
+            "name":"EyeWitness",
+            "type":"url",
+            "url":"https://github.com/FortyNorthSecurity/EyeWitness"
+          }
+
+        ],
+        "name": "Virtual Recon",
+        "type": "folder"
+      },
+      {
+        "children":[
+          {
+            "name":"gitrob",
+            "type":"url",
+            "url":"https://github.com/michenriksen/gitrob"
+          },
+          { 
+            "name":"githound",
+            "type":"url",
+            "url":"https://github.com/tillson/git-hound"
+
+          },
+          {
+            "name":"sshgit",
+            "type":"url",
+            "url":"https://github.com/eth0izzle/shhgit"
+
+          },
+          {
+            "name":"trufflehog",
+            "type":"url",
+            "url":"https://github.com/trufflesecurity/truffleHog"
+          },
+          {
+            "name":"git-all-secrets",
+            "type":"url",
+            "url":"https://github.com/anshumanbh/git-all-secrets"
+          },
+          {
+            "name":"gitgrabber",
+            "type":"url",
+            "url":"https://github.com/hisxo/gitGraber"
+          },
+          {
+            "name":"Manual Dorks",
+            "type":"url",
+            "url":"https://google.com"
+          }
+        ],
+
+        "name": "Github Recon",
+        "type": "folder"
+      }
+  ],
+  "name": "Web Application Security",
+  "type": "folder"
+}
