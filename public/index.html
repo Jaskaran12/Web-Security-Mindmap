@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <link type="text/css" rel="stylesheet" href="css/arf.css"/>
-    <link type="text/css" href="css/light-theme.css" rel="stylesheet" id="theme-link">
-    <script type="text/javascript" src="js/d3.v3.min.js"></script>
-    <title>Web Pentesting Methodology</title>
-  </head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="css/arf.css" />
+		<link
+			type="text/css"
+			href="css/light-theme.css"
+			rel="stylesheet"
+			id="theme-link"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+			crossorigin="anonymous"
+		/>
+		<script type="text/javascript" src="js/d3.v3.min.js"></script>
+		<title>Web Pentesting Methodology</title>
+	</head>
 
-  <body>
-    <div id="body">
-      <div id="header">
-        Web Pentesting And Bug Bounty Methodology Framework
-          <hr/>
-          <button class="btn-toggle">Toggle Dark-Mode</button>
-      </div>
-    </div>
-    
-      <script>
-        const btn = document.querySelector(".btn-toggle");
-        const theme = document.querySelector("#theme-link");
-        btn.addEventListener("click", function() {
-          // Swap out the URL for the different stylesheets
-          if (theme.getAttribute("href") == "css/light-theme.css") {
-            theme.href = "css/dark-theme.css";
-          } else {
-            theme.href = "css/light-theme.css";
-          }
-        });
-      </script>
-    <script src="js/arf.js"></script>
+	<body>
+		<div id="body">
+			<div id="header">
+				Web Pentesting And Bug Bounty Methodology Framework
+				<div>
+					<button class="btn"><i class="fas fa-adjust fa-lg"></i></button>
+				</div>
+			</div>
+		</div>
 
-<center>
-    <h3>Intro</h3>
-    Web Security framework focused on having all free tools or resources at one place, I have taken reference from amazing mind map desfinef by <a href="https://www.linkedin.com/in/iamrohitg/?originalSubdomain=in" >Rohit Gautam</a>.  The intention is to help people find free Web security tools which can be used for bug bounty or Pentesting.  
-    <p><a href="mindmap.png">How to use</a></p>
-    <h3>For Update Notifications</h3>
-    Follow me on Linkden: <a href="https://www.linkedin.com/in/jaskaransingh-dce/">@jaskaransingh</a><br>
-    Watch or star the project on Github: <a href="https://github.com/Jaskaran12/Web-Security-Mindmap">Project link</a>
+		<script>
+			const btn = document.querySelector(".btn");
+			const theme = document.querySelector("#theme-link");
+			btn.addEventListener("click", function () {
+				// Swap out the URL for the different stylesheets
+				if (theme.getAttribute("href") == "css/light-theme.css") {
+					theme.href = "css/dark-theme.css";
+				} else {
+					theme.href = "css/light-theme.css";
+				}
+			});
+		</script>
+		<script src="js/arf.js"></script>
 
-    <h3>Suggestions, Comments, Feedback</h3>
-    Feedback or new tool suggestions are extremely welcome!  Please feel free to reach out on Twitter or submit an issue on Github.
-  </center>
-  </body>
+		<center>
+			<h3>Intro</h3>
+			Web Security framework focused on having all free tools or resources at
+			one place, I have taken reference from amazing mind map desfinef by
+			<a href="https://www.linkedin.com/in/iamrohitg/?originalSubdomain=in"
+				>Rohit Gautam</a
+			>. The intention is to help people find free Web security tools which can
+			be used for bug bounty or Pentesting.
+			<p><a href="mindmap.png">How to use</a></p>
+			<h3>For Update Notifications</h3>
+			Follow me on Linkden:
+			<a href="https://www.linkedin.com/in/jaskaransingh-dce/">@jaskaransingh</a
+			><br />
+			Watch or star the project on Github:
+			<a href="https://github.com/Jaskaran12/Web-Security-Mindmap"
+				>Project link</a
+			>
 
+			<h3>Suggestions, Comments, Feedback</h3>
+			Feedback or new tool suggestions are extremely welcome! Please feel free
+			to reach out on Twitter or submit an issue on Github.
+		</center>
+	</body>
 </html>
