@@ -1,3 +1,3 @@
 # Web Security Framework
 
-https://websecmindmap.netlify.app/s
+https://websecmindmap.netlify.app/
