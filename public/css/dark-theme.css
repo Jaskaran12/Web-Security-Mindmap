@@ -1,23 +1,29 @@
 body {
-    color: #eee;
-    background: #121212;
-  }
-  body a {
-    color: #809fff;
-  }
+	color: #eee;
+	background: #121212;
+}
+body a {
+	color: #809fff;
+}
 
-  .node {
-    cursor: pointer;
-  }
-  
-  .node circle {
-    cursor: pointer;
-    fill: #000;
-    stroke: steelblue;
-    stroke-width: 1.5px;
-  }
-  
-  .node text {
-    font-size: 12px;
-    fill: #fff;
-  }
+.node {
+	cursor: pointer;
+}
+
+.node circle {
+	cursor: pointer;
+	fill: #000;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.node text {
+	font-size: 13px;
+	fill: #fff;
+}
+.btn {
+	background-color: #121212;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
