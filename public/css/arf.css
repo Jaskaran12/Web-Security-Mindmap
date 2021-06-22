@@ -2,6 +2,7 @@ body {
 	background-color: #ffffff;
 	font-size: 14px;
 	font-family: "Raleway", sans-serif;
+	transition: all 0.5s;
 }
 
 #body {
@@ -34,3 +35,4 @@ path.link {
 	stroke: #ccc;
 	stroke-width: 1px;
 }
+
